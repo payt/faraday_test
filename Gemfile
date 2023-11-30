@@ -11,9 +11,8 @@ gem 'sqlite3', '~> 1.4'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '>= 5.0'
 
-gem 'faraday'
-gem 'faraday-gzip'
-gem 'faraday-typhoeus'
+gem 'faraday', '1.10.3'
+gem 'faraday_middleware'
 gem 'pry'
 gem 'typhoeus'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
